@@ -83,18 +83,18 @@ flowchart TD
     L1 --> L2 --> L3 --> L4 --> L5 --> L6 --> L7 --> L8 --> L9 --> L10
 ```
 
-| #  | Lesson                   | What It Covers                                                       |
-|----|--------------------------|----------------------------------------------------------------------|
-| 1  | What Is a Computer?      | Input, process, output, storage; hardware vs software; the OS.       |
-| 2  | CPU, Memory, and Storage | How the CPU executes instructions; RAM, cache, disks, and SSDs.      |
-| 3  | Operating Systems        | Kernel vs user space; processes, threads, scheduling, and drivers.   |
-| 4  | Linux Fundamentals       | The Linux filesystem, terminal basics, users, permissions, and shell.|
-| 5  | Networking Fundamentals  | IP addresses, DNS, TCP/UDP, HTTP, and how the internet works.        |
-| 6  | Web Fundamentals         | Clients and servers, APIs, databases, and how web apps are built.    |
-| 7  | Virtualization           | Hypervisors, virtual machines, resource allocation, and isolation.   |
-| 8  | Docker                   | Containers vs VMs, images, Dockerfiles, and container orchestration. |
-| 9  | Cloud Computing          | IaaS, PaaS, SaaS; public/private/hybrid cloud; cloud-native design.  |
-| 10 | Kubernetes               | Pods, nodes, clusters, deployments, services, and scaling.           |
+| #  | Lesson                                                                               | What It Covers                                                       |
+|----|--------------------------------------------------------------------------------------|----------------------------------------------------------------------|
+| 1  | [What Is a Computer?](01-what-is-a-computer.md)                                      | Input, process, output, storage; hardware vs software; the OS.       |
+| 2  | [CPU, Memory, and Storage](02-cpu-memory-storage.md)                                 | How the CPU executes instructions; RAM, cache, disks, and SSDs.      |
+| 3  | [Operating Systems](03-operating-systems.md)                                         | Kernel vs user space; processes, threads, scheduling, and drivers.   |
+| 4  | [Linux Fundamentals](04-linux-fundamentals.md)                                       | The Linux filesystem, terminal basics, users, permissions, and shell.|
+| 5  | [Networking Fundamentals](05-networking-fundamentals.md)                             | IP addresses, DNS, TCP/UDP, HTTP, and how the internet works.        |
+| 6  | [Web Fundamentals](06-web-fundamentals.md)                                           | Clients and servers, APIs, databases, and how web apps are built.    |
+| 7  | [Virtualization](07-virtualization.md)                                               | Hypervisors, virtual machines, resource allocation, and isolation.   |
+| 8  | [Docker](08-docker.md)                                                               | Containers vs VMs, images, Dockerfiles, and container orchestration. |
+| 9  | [Cloud Computing](09-cloud-computing.md)                                             | IaaS, PaaS, SaaS; public/private/hybrid cloud; cloud-native design.  |
+| 10 | [Kubernetes](10-kubernetes.md)                                                       | Pods, nodes, clusters, deployments, services, and scaling.           |
 
 The reason for this order is simple: **you cannot understand Kubernetes without understanding containers; you cannot understand containers without understanding Linux; you cannot understand Linux without understanding operating systems; and you cannot understand an operating system without understanding what a computer is.** The course follows that chain of dependencies from the bottom up.
 
@@ -210,3 +210,5 @@ The goal is to build the best free introduction to cloud-native computing that e
 Start with **Lesson 1: What Is a Computer?** It takes about 20 minutes to read and 10 minutes to do the exercises. By the end, you will have a clear mental model of what a computer is and how its components work together—the foundation for everything that follows.
 
 [Go to Lesson 1 →](01-what-is-a-computer.md)
+
+All lessons are linked in the [Learning Path](#the-learning-path) table above.
